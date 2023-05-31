@@ -1,15 +1,23 @@
 ﻿using SD.Application.Interfaces;
 using SD.Domain.Models;
+using SD.Infrastructure.Data;
 
 namespace SD.Infrastructure.Repositories;
 public class ProductRepository : IProductRepository {
 
-    public static List<ProductModel> products = new List<ProductModel>() {
-        new ProductModel { Id = new Guid(), Name = "GX4", Description="Taurus", Price = 3594.00M },
-        new ProductModel { Id = new Guid(), Name = "TS9", Description="Taurus", Price = 5780.00M }
-    };
+    private readonly SDContext _context;
+
+    public ProductRepository(SDContext context) {
+        _context = context;
+    }
 
     public List<ProductModel> GetAllProducts() {
-        return products;
+        return _context.Products.ToList();
+    }
+
+    public ProductModel CreateProduct(ProductModel product) {
+        _context.Products.Add(product);
+        _context.SaveChanges();
+        return product;
     }
 }

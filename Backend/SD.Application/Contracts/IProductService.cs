@@ -6,4 +6,5 @@ public interface IProductService {
     // Aqui serão aplicadas as Regras de Negócio "Use cases"
 
     List<ProductModel> GetAllProducts();
+    ProductModel CreateProduct(ProductModel product);
 }

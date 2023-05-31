@@ -15,3 +15,5 @@ C:\Users\devhi\Desktop\SD_CRUD\Backend\Infrastructure\obj\Debug\net6.0\SD.Infras
 C:\Users\devhi\Desktop\SD_CRUD\Backend\Infrastructure\obj\Debug\net6.0\refint\SD.Infrastructure.dll
 C:\Users\devhi\Desktop\SD_CRUD\Backend\Infrastructure\obj\Debug\net6.0\SD.Infrastructure.pdb
 C:\Users\devhi\Desktop\SD_CRUD\Backend\Infrastructure\obj\Debug\net6.0\ref\SD.Infrastructure.dll
+C:\Users\devhi\Desktop\SD_CRUD\Backend\Infrastructure\bin\Debug\net6.0\SD.Infrastructure.runtimeconfig.json
+C:\Users\devhi\Desktop\SD_CRUD\Backend\Infrastructure\obj\Debug\net6.0\SD.Infrastructure.genruntimeconfig.cache

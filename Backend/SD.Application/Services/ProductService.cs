@@ -15,4 +15,9 @@ public class ProductService : IProductService {
         var products = _productRepository.GetAllProducts();
         return products;
     }
+
+    public ProductModel CreateProduct(ProductModel product) {
+        _productRepository.CreateProduct(product);
+        return product;
+    }
 }

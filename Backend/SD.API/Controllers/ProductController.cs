@@ -19,4 +19,10 @@ public class ProductController : ControllerBase {
         return Ok(products);
     }
 
+    [HttpPost]
+    public ActionResult PostProduct(ProductModel product) {
+        _productService.CreateProduct(product);
+        return Ok(product);
+    }
+
 }
