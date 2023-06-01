@@ -13,3 +13,18 @@ C:\Users\devhi\Desktop\SD_CRUD\Backend\SD.Application\obj\Debug\net6.0\SD.Applic
 C:\Users\devhi\Desktop\SD_CRUD\Backend\SD.Application\obj\Debug\net6.0\refint\SD.Application.dll
 C:\Users\devhi\Desktop\SD_CRUD\Backend\SD.Application\obj\Debug\net6.0\SD.Application.pdb
 C:\Users\devhi\Desktop\SD_CRUD\Backend\SD.Application\obj\Debug\net6.0\ref\SD.Application.dll
+C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\SD.Application\bin\Debug\net6.0\SD.Application.deps.json
+C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\SD.Application\bin\Debug\net6.0\SD.Application.dll
+C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\SD.Application\bin\Debug\net6.0\SD.Application.pdb
+C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\SD.Application\bin\Debug\net6.0\SD.Domain.dll
+C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\SD.Application\bin\Debug\net6.0\SD.Domain.pdb
+C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\SD.Application\obj\Debug\net6.0\SD.Application.csproj.AssemblyReference.cache
+C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\SD.Application\obj\Debug\net6.0\SD.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\SD.Application\obj\Debug\net6.0\SD.Application.AssemblyInfoInputs.cache
+C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\SD.Application\obj\Debug\net6.0\SD.Application.AssemblyInfo.cs
+C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\SD.Application\obj\Debug\net6.0\SD.Application.csproj.CoreCompileInputs.cache
+C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\SD.Application\obj\Debug\net6.0\SD.Application.csproj.CopyComplete
+C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\SD.Application\obj\Debug\net6.0\SD.Application.dll
+C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\SD.Application\obj\Debug\net6.0\refint\SD.Application.dll
+C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\SD.Application\obj\Debug\net6.0\SD.Application.pdb
+C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\SD.Application\obj\Debug\net6.0\ref\SD.Application.dll
