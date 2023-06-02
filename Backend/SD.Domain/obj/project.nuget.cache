@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NypVjp4DL08m2n0qSeMrOga6LZbFSrz9poolDqyUPSsiSKtcEDYLcjA15r1sxcwA2JbZuFFbEhmZ5dtIHicVJQ==",
+  "dgSpecHash": "E91oDo0FExTBP4uatXfB1xR9RDVBbt+3rLDqI5jkLztNSVQuv9C0O6HCO9tkB1Ii3PiLIuH6LcxrCqSrvD151w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\devhi\\Desktop\\SD_CRUD\\Backend\\SD.Domain\\SD.Domain.csproj",
+  "projectFilePath": "D:\\TCC\\SD_CRUD\\Backend\\SD.Domain\\SD.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
