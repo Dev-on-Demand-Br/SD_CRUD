@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\devhi\\Desktop\\SD_CRUD\\Backend\\SD.API\\SD.API.csproj": {}
+    "C:\\Users\\devhi\\Desktop\\Dev\\Dev on Demand\\SD_CRUD\\Backend\\SD.API\\SD.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\devhi\\Desktop\\SD_CRUD\\Backend\\Infrastructure\\SD.Infrastructure.csproj": {
+    "C:\\Users\\devhi\\Desktop\\Dev\\Dev on Demand\\SD_CRUD\\Backend\\Infrastructure\\SD.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\devhi\\Desktop\\SD_CRUD\\Backend\\Infrastructure\\SD.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\devhi\\Desktop\\Dev\\Dev on Demand\\SD_CRUD\\Backend\\Infrastructure\\SD.Infrastructure.csproj",
         "projectName": "SD.Infrastructure",
-        "projectPath": "C:\\Users\\devhi\\Desktop\\SD_CRUD\\Backend\\Infrastructure\\SD.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\devhi\\Desktop\\Dev\\Dev on Demand\\SD_CRUD\\Backend\\Infrastructure\\SD.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\devhi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\devhi\\Desktop\\SD_CRUD\\Backend\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\devhi\\Desktop\\Dev\\Dev on Demand\\SD_CRUD\\Backend\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\devhi\\Desktop\\SD_CRUD\\Backend\\SD.Application\\SD.Application.csproj": {
-                "projectPath": "C:\\Users\\devhi\\Desktop\\SD_CRUD\\Backend\\SD.Application\\SD.Application.csproj"
+              "C:\\Users\\devhi\\Desktop\\Dev\\Dev on Demand\\SD_CRUD\\Backend\\SD.Application\\SD.Application.csproj": {
+                "projectPath": "C:\\Users\\devhi\\Desktop\\Dev\\Dev on Demand\\SD_CRUD\\Backend\\SD.Application\\SD.Application.csproj"
               }
             }
           }
@@ -90,14 +90,14 @@
         }
       }
     },
-    "C:\\Users\\devhi\\Desktop\\SD_CRUD\\Backend\\SD.API\\SD.API.csproj": {
+    "C:\\Users\\devhi\\Desktop\\Dev\\Dev on Demand\\SD_CRUD\\Backend\\SD.API\\SD.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\devhi\\Desktop\\SD_CRUD\\Backend\\SD.API\\SD.API.csproj",
+        "projectUniqueName": "C:\\Users\\devhi\\Desktop\\Dev\\Dev on Demand\\SD_CRUD\\Backend\\SD.API\\SD.API.csproj",
         "projectName": "SD.API",
-        "projectPath": "C:\\Users\\devhi\\Desktop\\SD_CRUD\\Backend\\SD.API\\SD.API.csproj",
+        "projectPath": "C:\\Users\\devhi\\Desktop\\Dev\\Dev on Demand\\SD_CRUD\\Backend\\SD.API\\SD.API.csproj",
         "packagesPath": "C:\\Users\\devhi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\devhi\\Desktop\\SD_CRUD\\Backend\\SD.API\\obj\\",
+        "outputPath": "C:\\Users\\devhi\\Desktop\\Dev\\Dev on Demand\\SD_CRUD\\Backend\\SD.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -120,11 +120,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\devhi\\Desktop\\SD_CRUD\\Backend\\Infrastructure\\SD.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\devhi\\Desktop\\SD_CRUD\\Backend\\Infrastructure\\SD.Infrastructure.csproj"
+              "C:\\Users\\devhi\\Desktop\\Dev\\Dev on Demand\\SD_CRUD\\Backend\\Infrastructure\\SD.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\devhi\\Desktop\\Dev\\Dev on Demand\\SD_CRUD\\Backend\\Infrastructure\\SD.Infrastructure.csproj"
               },
-              "C:\\Users\\devhi\\Desktop\\SD_CRUD\\Backend\\SD.Application\\SD.Application.csproj": {
-                "projectPath": "C:\\Users\\devhi\\Desktop\\SD_CRUD\\Backend\\SD.Application\\SD.Application.csproj"
+              "C:\\Users\\devhi\\Desktop\\Dev\\Dev on Demand\\SD_CRUD\\Backend\\SD.Application\\SD.Application.csproj": {
+                "projectPath": "C:\\Users\\devhi\\Desktop\\Dev\\Dev on Demand\\SD_CRUD\\Backend\\SD.Application\\SD.Application.csproj"
               }
             }
           }
@@ -173,14 +173,14 @@
         }
       }
     },
-    "C:\\Users\\devhi\\Desktop\\SD_CRUD\\Backend\\SD.Application\\SD.Application.csproj": {
+    "C:\\Users\\devhi\\Desktop\\Dev\\Dev on Demand\\SD_CRUD\\Backend\\SD.Application\\SD.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\devhi\\Desktop\\SD_CRUD\\Backend\\SD.Application\\SD.Application.csproj",
+        "projectUniqueName": "C:\\Users\\devhi\\Desktop\\Dev\\Dev on Demand\\SD_CRUD\\Backend\\SD.Application\\SD.Application.csproj",
         "projectName": "SD.Application",
-        "projectPath": "C:\\Users\\devhi\\Desktop\\SD_CRUD\\Backend\\SD.Application\\SD.Application.csproj",
+        "projectPath": "C:\\Users\\devhi\\Desktop\\Dev\\Dev on Demand\\SD_CRUD\\Backend\\SD.Application\\SD.Application.csproj",
         "packagesPath": "C:\\Users\\devhi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\devhi\\Desktop\\SD_CRUD\\Backend\\SD.Application\\obj\\",
+        "outputPath": "C:\\Users\\devhi\\Desktop\\Dev\\Dev on Demand\\SD_CRUD\\Backend\\SD.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -202,8 +202,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\devhi\\Desktop\\SD_CRUD\\Backend\\SD.Domain\\SD.Domain.csproj": {
-                "projectPath": "C:\\Users\\devhi\\Desktop\\SD_CRUD\\Backend\\SD.Domain\\SD.Domain.csproj"
+              "C:\\Users\\devhi\\Desktop\\Dev\\Dev on Demand\\SD_CRUD\\Backend\\SD.Domain\\SD.Domain.csproj": {
+                "projectPath": "C:\\Users\\devhi\\Desktop\\Dev\\Dev on Demand\\SD_CRUD\\Backend\\SD.Domain\\SD.Domain.csproj"
               }
             }
           }
@@ -237,14 +237,14 @@
         }
       }
     },
-    "C:\\Users\\devhi\\Desktop\\SD_CRUD\\Backend\\SD.Domain\\SD.Domain.csproj": {
+    "C:\\Users\\devhi\\Desktop\\Dev\\Dev on Demand\\SD_CRUD\\Backend\\SD.Domain\\SD.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\devhi\\Desktop\\SD_CRUD\\Backend\\SD.Domain\\SD.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\devhi\\Desktop\\Dev\\Dev on Demand\\SD_CRUD\\Backend\\SD.Domain\\SD.Domain.csproj",
         "projectName": "SD.Domain",
-        "projectPath": "C:\\Users\\devhi\\Desktop\\SD_CRUD\\Backend\\SD.Domain\\SD.Domain.csproj",
+        "projectPath": "C:\\Users\\devhi\\Desktop\\Dev\\Dev on Demand\\SD_CRUD\\Backend\\SD.Domain\\SD.Domain.csproj",
         "packagesPath": "C:\\Users\\devhi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\devhi\\Desktop\\SD_CRUD\\Backend\\SD.Domain\\obj\\",
+        "outputPath": "C:\\Users\\devhi\\Desktop\\Dev\\Dev on Demand\\SD_CRUD\\Backend\\SD.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

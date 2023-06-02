@@ -17,3 +17,22 @@ C:\Users\devhi\Desktop\SD_CRUD\Backend\Infrastructure\obj\Debug\net6.0\SD.Infras
 C:\Users\devhi\Desktop\SD_CRUD\Backend\Infrastructure\obj\Debug\net6.0\ref\SD.Infrastructure.dll
 C:\Users\devhi\Desktop\SD_CRUD\Backend\Infrastructure\bin\Debug\net6.0\SD.Infrastructure.runtimeconfig.json
 C:\Users\devhi\Desktop\SD_CRUD\Backend\Infrastructure\obj\Debug\net6.0\SD.Infrastructure.genruntimeconfig.cache
+C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\Infrastructure\bin\Debug\net6.0\SD.Infrastructure.deps.json
+C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\Infrastructure\bin\Debug\net6.0\SD.Infrastructure.runtimeconfig.json
+C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\Infrastructure\bin\Debug\net6.0\SD.Infrastructure.dll
+C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\Infrastructure\bin\Debug\net6.0\SD.Infrastructure.pdb
+C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\Infrastructure\bin\Debug\net6.0\SD.Application.dll
+C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\Infrastructure\bin\Debug\net6.0\SD.Domain.dll
+C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\Infrastructure\bin\Debug\net6.0\SD.Application.pdb
+C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\Infrastructure\bin\Debug\net6.0\SD.Domain.pdb
+C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\Infrastructure\obj\Debug\net6.0\SD.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\Infrastructure\obj\Debug\net6.0\SD.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\Infrastructure\obj\Debug\net6.0\SD.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\Infrastructure\obj\Debug\net6.0\SD.Infrastructure.AssemblyInfo.cs
+C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\Infrastructure\obj\Debug\net6.0\SD.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\Infrastructure\obj\Debug\net6.0\SD.Infrastructure.csproj.CopyComplete
+C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\Infrastructure\obj\Debug\net6.0\SD.Infrastructure.dll
+C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\Infrastructure\obj\Debug\net6.0\refint\SD.Infrastructure.dll
+C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\Infrastructure\obj\Debug\net6.0\SD.Infrastructure.pdb
+C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\Infrastructure\obj\Debug\net6.0\SD.Infrastructure.genruntimeconfig.cache
+C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\Infrastructure\obj\Debug\net6.0\ref\SD.Infrastructure.dll

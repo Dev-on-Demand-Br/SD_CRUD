@@ -10,3 +10,15 @@ C:\Users\devhi\Desktop\SD_CRUD\Backend\SD.Domain\obj\Debug\net6.0\SD.Domain.dll
 C:\Users\devhi\Desktop\SD_CRUD\Backend\SD.Domain\obj\Debug\net6.0\refint\SD.Domain.dll
 C:\Users\devhi\Desktop\SD_CRUD\Backend\SD.Domain\obj\Debug\net6.0\SD.Domain.pdb
 C:\Users\devhi\Desktop\SD_CRUD\Backend\SD.Domain\obj\Debug\net6.0\ref\SD.Domain.dll
+C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\SD.Domain\bin\Debug\net6.0\SD.Domain.deps.json
+C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\SD.Domain\bin\Debug\net6.0\SD.Domain.dll
+C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\SD.Domain\bin\Debug\net6.0\SD.Domain.pdb
+C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\SD.Domain\obj\Debug\net6.0\SD.Domain.csproj.AssemblyReference.cache
+C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\SD.Domain\obj\Debug\net6.0\SD.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\SD.Domain\obj\Debug\net6.0\SD.Domain.AssemblyInfoInputs.cache
+C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\SD.Domain\obj\Debug\net6.0\SD.Domain.AssemblyInfo.cs
+C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\SD.Domain\obj\Debug\net6.0\SD.Domain.csproj.CoreCompileInputs.cache
+C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\SD.Domain\obj\Debug\net6.0\SD.Domain.dll
+C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\SD.Domain\obj\Debug\net6.0\refint\SD.Domain.dll
+C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\SD.Domain\obj\Debug\net6.0\SD.Domain.pdb
+C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\SD.Domain\obj\Debug\net6.0\ref\SD.Domain.dll

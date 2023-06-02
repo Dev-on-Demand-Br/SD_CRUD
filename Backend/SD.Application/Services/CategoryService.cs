@@ -11,13 +11,26 @@ public class CategoryService : ICategoryService {
         _categoryRepository = categoryRepository;
     }
 
-    public List<CategoryModel> GetAllCategories() {
-        var categories = _categoryRepository.GetAllCategories();
-        return categories;
+    public async Task<List<CategoryModel>> GetAllCategories() {
+        return await _categoryRepository.GetAllCategories();
     }
 
-    public CategoryModel CreateCategory(CategoryModel category) {
-        _categoryRepository.CreateCategory(category);
-        return category;
+    public async Task<List<CategoryModel>> GetCategoriesAndProducts() {
+        return await _categoryRepository.GetCategoriesAndProducts();
+    }
+
+    public async Task<CategoryModel> GetCategoryById(Guid id) {
+        return await _categoryRepository.GetCategoryById(id);
+    }
+    public async Task<CategoryModel> CreateCategory(CategoryModel category) {
+        return await _categoryRepository.CreateCategory(category);
+    }
+
+    public async Task<CategoryModel> UpdateCategory(CategoryModel category) {
+        return await _categoryRepository.UpdateCategory(category);
+    }
+
+    public async Task<CategoryModel> DeleteCategory(Guid id) {
+        return await _categoryRepository.DeleteCategory(id);
     }
 }
