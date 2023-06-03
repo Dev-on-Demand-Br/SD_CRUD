@@ -15,7 +15,7 @@ public class ProductService : IProductService {
         return await _productRepository.GetAllProducts();
     }
 
-    public async Task<ProductModel> GetProductById(Guid id) {
+    public async Task<ProductModel> GetProductById(int id) {
         return await _productRepository.GetProductById(id);
     }
 
@@ -27,7 +27,7 @@ public class ProductService : IProductService {
         return await _productRepository.UpdateProduct(product);
     }
 
-    public async Task<ProductModel> DeleteProduct(Guid id) {
+    public async Task<ProductModel> DeleteProduct(int id) {
         return await _productRepository.DeleteProduct(id);
     }
 }

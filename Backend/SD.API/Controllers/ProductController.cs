@@ -22,8 +22,8 @@ public class ProductController : ControllerBase {
         return Ok(product);
     }
 
-    [HttpGet("{id:Guid}", Name = "GetProduct")]
-    public async Task<ActionResult<ProductModel>> Get(Guid id) {
+    [HttpGet("{id:int}", Name = "GetProduct")]
+    public async Task<ActionResult<ProductModel>> Get(int id) {
         var product = await _productService.GetProductById(id);
 
         if (product is null) return NotFound("Produto não encontrado.");
@@ -40,10 +40,8 @@ public class ProductController : ControllerBase {
         return new CreatedAtRouteResult("GetProduct", new { id = product.Id }, product);
     }
 
-    [HttpPut("{id:Guid}")]
-    public async Task<ActionResult> Put(Guid id, [FromBody] ProductModel product) {
-        if (id != product.Id) return BadRequest("Produto não encontrado.");
-
+    [HttpPut("{id:int}")]
+    public async Task<ActionResult> Put(int id, [FromBody] ProductModel product) {
         if (product is null) return BadRequest("Produto não encontrado.");
 
         await _productService.UpdateProduct(product);
@@ -51,8 +49,8 @@ public class ProductController : ControllerBase {
         return Ok(product);
     }
 
-    [HttpDelete("{id:Guid}")]
-    public async Task<ActionResult<ProductModel>> Delete(Guid id) {
+    [HttpDelete("{id:int}")]
+    public async Task<ActionResult<ProductModel>> Delete(int id) {
         var product = await _productService.GetProductById(id);
 
         if (product is null) return BadRequest("Produto não encontrado.");
