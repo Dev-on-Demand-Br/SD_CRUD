@@ -3,6 +3,7 @@ using SD.Application.Contracts;
 using SD.Domain.Models;
 
 namespace SD.API.Controllers;
+
 [Route("api/[controller]")]
 [ApiController]
 public class CategoryController : ControllerBase {
@@ -29,8 +30,8 @@ public class CategoryController : ControllerBase {
         return Ok(content);
     }
 
-    [HttpGet("{id:Guid}", Name = "GetCategory")]
-    public async Task<ActionResult<CategoryModel>> Get(Guid id) {
+    [HttpGet("{id:int}", Name = "GetCategory")]
+    public async Task<ActionResult<CategoryModel>> Get(int id) {
         var category = await _categoryService.GetCategoryById(id);
 
         if (category is null) return NotFound("Categoria não encontrada.");
@@ -47,10 +48,8 @@ public class CategoryController : ControllerBase {
         return new CreatedAtRouteResult("GetCategory", new { id = category.Id }, category);
     }
 
-    [HttpPut("{id:Guid}")] // Verificar, não encontra ID
-    public async Task<ActionResult> Put(Guid id, [FromBody] CategoryModel category) {
-        if (id != category.Id) return BadRequest("Categoria não encontrada.");
-
+    [HttpPut("{id:int}")] // Verificar, não encontra ID
+    public async Task<ActionResult> Put(int id, [FromBody] CategoryModel category) {
         if (category is null) return BadRequest("Categoria não encontrada.");
 
         await _categoryService.UpdateCategory(category);
@@ -58,8 +57,8 @@ public class CategoryController : ControllerBase {
         return Ok(category);
     }
 
-    [HttpDelete("{id:Guid}")]
-    public async Task<ActionResult<CategoryModel>> Delete(Guid id) {
+    [HttpDelete("{id:int}")]
+    public async Task<ActionResult<CategoryModel>> Delete(int id) {
         var category = await _categoryService.GetCategoryById(id);
 
         if (category is null) return NotFound("Categoria não encontrada.");

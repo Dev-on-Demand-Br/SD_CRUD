@@ -4,8 +4,8 @@ namespace SD.Application.Contracts;
 public interface ICategoryService {
     Task<List<CategoryModel>> GetAllCategories();
     Task<List<CategoryModel>> GetCategoriesAndProducts();
-    Task<CategoryModel> GetCategoryById(Guid id);
+    Task<CategoryModel> GetCategoryById(int id);
     Task<CategoryModel> CreateCategory(CategoryModel category);
     Task<CategoryModel> UpdateCategory(CategoryModel category);
-    Task<CategoryModel> DeleteCategory(Guid id);
+    Task<CategoryModel> DeleteCategory(int id);
 }

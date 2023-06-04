@@ -19,7 +19,7 @@ public class CategoryService : ICategoryService {
         return await _categoryRepository.GetCategoriesAndProducts();
     }
 
-    public async Task<CategoryModel> GetCategoryById(Guid id) {
+    public async Task<CategoryModel> GetCategoryById(int id) {
         return await _categoryRepository.GetCategoryById(id);
     }
     public async Task<CategoryModel> CreateCategory(CategoryModel category) {
@@ -30,7 +30,7 @@ public class CategoryService : ICategoryService {
         return await _categoryRepository.UpdateCategory(category);
     }
 
-    public async Task<CategoryModel> DeleteCategory(Guid id) {
+    public async Task<CategoryModel> DeleteCategory(int id) {
         return await _categoryRepository.DeleteCategory(id);
     }
 }
