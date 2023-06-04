@@ -1,8 +1,8 @@
-<template>
-  <Navbar/>
+<template>  
+
+    <Navbar/>
 
   <router-view/>
-
 
 </template>
 
@@ -17,7 +17,9 @@ export default {
 </script>
 <style>
 *{
-  font-family: Popins, sans-serif
-
+  /* background: #EAEAEA; */
+  font-family: 'Poppins', sans-serif;
+  font-size: small;
 }
+
 </style>
