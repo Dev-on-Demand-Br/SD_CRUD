@@ -3,8 +3,9 @@
 namespace SD.Application.Contracts;
 public interface IProductService {
 
-    // Aqui serão aplicadas as Regras de Negócio "Use cases"
-
-    List<ProductModel> GetAllProducts();
-    ProductModel CreateProduct(ProductModel product);
+    Task<List<ProductModel>> GetAllProducts();
+    Task<ProductModel> GetProductById(int id);
+    Task<ProductModel> CreateProduct(ProductModel product);
+    Task<ProductModel> UpdateProduct(ProductModel product);
+    Task<ProductModel> DeleteProduct(int id);
 }

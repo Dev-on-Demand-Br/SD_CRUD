@@ -14,15 +14,49 @@ public class ProductController : ControllerBase {
     }
 
     [HttpGet]
-    public ActionResult<List<ProductModel>> GetProducts() {
-        var products = _productService.GetAllProducts();
-        return Ok(products);
-    }
+    public async Task<ActionResult<List<ProductModel>>> Get() {
+        var product = await _productService.GetAllProducts();
 
-    [HttpPost]
-    public ActionResult PostProduct(ProductModel product) {
-        _productService.CreateProduct(product);
+        if (product is null) return NotFound("Nenhum produto encontrado.");
+
         return Ok(product);
     }
 
+    [HttpGet("{id:int}", Name = "GetProduct")]
+    public async Task<ActionResult<ProductModel>> Get(int id) {
+        var product = await _productService.GetProductById(id);
+
+        if (product is null) return NotFound("Produto não encontrado.");
+
+        return Ok(product);
+    }
+
+    [HttpPost]
+    public async Task<ActionResult> Post([FromBody] ProductModel product) {
+        if (product is null) return BadRequest("Preenchimento incorreto.");
+
+        await _productService.CreateProduct(product);
+
+        return new CreatedAtRouteResult("GetProduct", new { id = product.Id }, product);
+    }
+
+    [HttpPut("{id:int}")]
+    public async Task<ActionResult> Put(int id, [FromBody] ProductModel product) {
+        if (product is null) return BadRequest("Produto não encontrado.");
+
+        await _productService.UpdateProduct(product);
+
+        return Ok(product);
+    }
+
+    [HttpDelete("{id:int}")]
+    public async Task<ActionResult<ProductModel>> Delete(int id) {
+        var product = await _productService.GetProductById(id);
+
+        if (product is null) return BadRequest("Produto não encontrado.");
+
+        await _productService.DeleteProduct(id);
+
+        return Ok(product);
+    }
 }
