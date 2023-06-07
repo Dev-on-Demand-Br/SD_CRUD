@@ -11,13 +11,8 @@ using SD.Infrastructure.Data;
 namespace SD.API.Migrations
 {
     [DbContext(typeof(SDContext))]
-<<<<<<<< HEAD:Backend/SD.API/Migrations/20230603233636_UpdatedTables.Designer.cs
-    [Migration("20230603233636_UpdatedTables")]
-    partial class UpdatedTables
-========
-    [Migration("20230601030457_CreateTables")]
-    partial class CreateTables
->>>>>>>> b9974efe600a98b0c55b8de4a151690dbe186de6:Backend/SD.API/Migrations/20230601030457_CreateTables.Designer.cs
+    [Migration("20230604015106_Innitial")]
+    partial class Innitial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -74,12 +69,9 @@ namespace SD.API.Migrations
                         .HasPrecision(12, 2)
                         .HasColumnType("decimal(12,2)");
 
-<<<<<<<< HEAD:Backend/SD.API/Migrations/20230603233636_UpdatedTables.Designer.cs
                     b.Property<long>("Sku")
                         .HasColumnType("bigint");
 
-========
->>>>>>>> b9974efe600a98b0c55b8de4a151690dbe186de6:Backend/SD.API/Migrations/20230601030457_CreateTables.Designer.cs
                     b.Property<long>("Stock")
                         .HasColumnType("bigint");
 

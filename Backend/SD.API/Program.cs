@@ -1,13 +1,17 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using SD.Application.Contracts;
 using SD.Application.Interfaces;
 using SD.Application.Services;
 using SD.Infrastructure.Data;
 using SD.Infrastructure.Repositories;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Register Configuration
+
 ConfigurationManager configuration = builder.Configuration;
 
 // Add services to the container.
@@ -18,6 +22,18 @@ builder.Services.AddCors(c => {
     .AllowAnyMethod()
     .AllowAnyHeader());
 });
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options => {
+        options.TokenValidationParameters = new TokenValidationParameters() {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidIssuer = builder.Configuration["Jwt:Issuer"],
+            ValidAudience = builder.Configuration["Jwt:Audience"],
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+        };
+    });
 
 builder.Services.AddControllers();
 
@@ -33,6 +49,8 @@ builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
 
 var app = builder.Build();
 
@@ -44,6 +62,7 @@ if (app.Environment.IsDevelopment()) {
 
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

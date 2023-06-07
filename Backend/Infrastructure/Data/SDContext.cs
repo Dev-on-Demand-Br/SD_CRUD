@@ -8,9 +8,28 @@ namespace SD.Infrastructure.Data {
 
         public DbSet<ProductModel> Products { get; set; }
         public DbSet<CategoryModel> Categories { get; set; }
+        public DbSet<User> Users { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder) {
+
+            modelBuilder.Entity<User>()
+                .HasKey(c => c.UserId);
+
+            modelBuilder.Entity<User>()
+                .Property(c => c.Username)
+                .IsRequired();
+
+            modelBuilder.Entity<User>()
+                .Property(c => c.Email)
+                .IsRequired();
+
+            modelBuilder.Entity<User>()
+                .Property(c => c.Password)
+                .IsRequired();
+
+            //
+
             modelBuilder.Entity<CategoryModel>()
                 .HasKey(c => c.Id);
 
@@ -23,7 +42,7 @@ namespace SD.Infrastructure.Data {
                 .HasMaxLength(100)
                 .IsRequired();
 
-
+            //
 
             modelBuilder.Entity<ProductModel>()
                 .HasKey(c => c.Id);

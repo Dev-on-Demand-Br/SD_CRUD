@@ -2,8 +2,8 @@
 using SD.Application.Interfaces;
 using SD.Domain.Models;
 using SD.Infrastructure.Data;
-namespace SD.Infrastructure.Repositories;
 
+namespace SD.Infrastructure.Repositories;
 public class CategoryRepository : ICategoryRepository {
 
     private readonly SDContext _context;
