@@ -4,24 +4,35 @@
 
   <form class="row g-3">
 
-   <div class="col-md-6">
+    <div class="col-md-2">
+     <label  class="form-label">Sku</label>
+     <input type="text" class="form-control" id="sku" name="sku" placeholder="Digite o Sku" >
+    </div>
+
+   <div class="col-md-4">
      <label  class="form-label">Produto</label>
-     <input type="text" class="form-control" id="name" name="name" placeholder="Digite o nome do Produto" aria-label="Digite o nome do Produto">
+     <input type="text" class="form-control" id="name" name="name" placeholder="Digite o nome do Produto" >
     </div>
 
     <div class="col-md-2">
      <label  class="form-label">Categoria</label>
-     <select id="category" name="category" class="form-select">
+     <input type="text" class="form-control" id="category" name="category" placeholder="Categoria">
+     <!-- <select id="category" name="category" class="form-select">
         <option selected>Sem Categoria</option>
         <option>{{category}}</option>
         <option>{{category}}</option>
         <option>{{category}}</option>
-     </select>
+     </select> -->
    </div>
 
-    <div class="col-md-3">
+    <div class="col-md-2">
      <label  class="form-label">Preço</label>
-      <input type="number" class="form-control" id="price" name="price" placeholder="Digite o Valor do Produto" aria-label="Digite o Valor do Produto">
+      <input type="number" class="form-control" id="price" name="price" placeholder="Digite o Valor do Produto" >
+    </div>
+
+    <div class="col-md-2">
+     <label  class="form-label">Quantidade</label>
+      <input type="number" class="form-control" id="stock" name="stock" placeholder="Qtd" aria-label="Qtd">
     </div>
 
     <div class="col-12">
@@ -40,10 +51,10 @@
       <thead>
         <tr>
           <th>
-            Produto
+            Sku
           </th>
           <th>
-            Categoria
+            Produto
           </th>
           <th>
             Preço
@@ -51,30 +62,36 @@
           <th>
             Descrição
           </th>
-          <th colspan="2"></th>
+          <th>
+            Categoria
+          </th>
+          <!-- <th colspan="2"></th> -->
         </tr>
       </thead>
 
       <tbody>
         <tr v-for="Products in Product" v-bind:key="Products.Id">
           <td>
-            {{Products.name}}
+            {{Products.sku}}
           </td>
           <td>
-            {{Products.category}}
+            {{Products.name}}
+          </td> 
+          <td>
+            {{Products.price}}
           </td>
           <td>
             {{Products.description}}
           </td>
           <td>
-            {{Products.price}}
+            {{Products.category}}
           </td>
-          <td>
+          <!-- <td>
             <button class="btn btn-primary" v-on:click="editar(Products)">Editar</button>
           </td>
           <td>
             <button class="btn btn-danger" v-on:click="excluir(Products.id)">Excluir</button>
-          </td>
+          </td> -->
         </tr>
       </tbody>
 
@@ -88,6 +105,7 @@
 <script>
 import axios from 'axios';
 
+
 export default {
   name: 'CadastroProduto',
   props: {
@@ -98,40 +116,30 @@ export default {
     return {
       Product:[],
       Products: undefined,
-      mensagem: "",
-      form: {
-        nome:""
-      }
+      category: "",
     }
   },
   methods:{
     //Lista os Produtos na tela
-    lista () {
-      axios.get('https://localhost:7172/api/Product').then((res)=>{
-       console.log(res) 
-       this.Product = res.data
-      })
-    },
+    
     salvar () {
-      if(this.Products){
-        
-        this.alterar()
-        return
-      }
-      
       axios.post('https://localhost:7172/api/Product',
       {
+        sku:document.getElementById("sku").value,
         name:document.getElementById("name").value,
-        category:document.getElementById("category").value,
+        categoryId:document.getElementById("category").value,
         description:document.getElementById("description").value,
         price:document.getElementById("price").value
       }).then(()=>{
-        this.lista()
+        
+        
+        console.log(res)
       })
     },
 
 
-  }
+  },
+    
 }
 </script>
 

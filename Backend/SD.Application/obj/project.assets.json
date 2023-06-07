@@ -27,23 +27,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\devhi\\.nuget\\packages\\": {},
-    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\11\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\devhi\\Desktop\\Dev\\Dev on Demand\\SD_CRUD\\Backend\\SD.Application\\SD.Application.csproj",
+      "projectUniqueName": "D:\\TCC\\SD_CRUD\\Backend\\SD.Application\\SD.Application.csproj",
       "projectName": "SD.Application",
-      "projectPath": "C:\\Users\\devhi\\Desktop\\Dev\\Dev on Demand\\SD_CRUD\\Backend\\SD.Application\\SD.Application.csproj",
-      "packagesPath": "C:\\Users\\devhi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\devhi\\Desktop\\Dev\\Dev on Demand\\SD_CRUD\\Backend\\SD.Application\\obj\\",
+      "projectPath": "D:\\TCC\\SD_CRUD\\Backend\\SD.Application\\SD.Application.csproj",
+      "packagesPath": "C:\\Users\\11\\.nuget\\packages\\",
+      "outputPath": "D:\\TCC\\SD_CRUD\\Backend\\SD.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\devhi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\11\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -59,8 +59,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\devhi\\Desktop\\Dev\\Dev on Demand\\SD_CRUD\\Backend\\SD.Domain\\SD.Domain.csproj": {
-              "projectPath": "C:\\Users\\devhi\\Desktop\\Dev\\Dev on Demand\\SD_CRUD\\Backend\\SD.Domain\\SD.Domain.csproj"
+            "D:\\TCC\\SD_CRUD\\Backend\\SD.Domain\\SD.Domain.csproj": {
+              "projectPath": "D:\\TCC\\SD_CRUD\\Backend\\SD.Domain\\SD.Domain.csproj"
             }
           }
         }
@@ -90,7 +90,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
