@@ -31,12 +31,32 @@ export default {
   }, 
   data:() => {
   return {
-      
+    Category:[],
+      Categorys: undefined,
+      category: "",
       
     }
   },
-  
+  methods:{
+    salvar () {
+      if(this.category){
+        console.log(res)
+        return
+      }
+      
+      axios.post('https://localhost:7172/api/Category',
+      {
+        code:document.getElementById("code").value,
+        name:document.getElementById("name").value,
+      }).then(()=>{
+        console.log(res)
+        
+      })
+      
+    },
 
-
-}
+    
+  },
+    
+  }
 </script>
