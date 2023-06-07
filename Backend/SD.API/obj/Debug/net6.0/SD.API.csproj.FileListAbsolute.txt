@@ -151,3 +151,5 @@ C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\SD.API\bin\Debug\net6.0
 C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\SD.API\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\SD.API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\SD.API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\SD.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\devhi\Desktop\Dev\Dev on Demand\SD_CRUD\Backend\SD.API\bin\Debug\net6.0\BCrypt.Net-Next.dll
